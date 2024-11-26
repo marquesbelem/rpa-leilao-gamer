@@ -57,7 +57,6 @@ namespace rpa_leilao_gamer
             Console.WriteLine("$$$ Digite a URL da página principal $$$");
             Console.WriteLine("$$$              ATENÇÃO             $$$");
             Console.WriteLine("$$$ Não colocar o final da URl '?page=29' $$$");
-            Console.WriteLine("$$$ Exemplo de URL 'https://www.nossoleilao.com.br/leilao/315/lotes' $$$");
 
             url = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(url))
